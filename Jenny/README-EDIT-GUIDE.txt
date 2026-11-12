@@ -12,9 +12,7 @@ FOLDER STRUCTURE (all separated):
 - payment.js        = payment page buttons (open GCash/BDO app, save QR)
 - images/alr-logo.png = ALR company logo (footer, print card, favicons)
 - images/my-photo.png = YOUR profile photo
-- images/work-1.jpg   = Stair railings
-- images/work-2.jpg   = Kitchen worktables
-- images/work-3.jpg   = Range hoods
+- images/work-1.jpg to work-6.jpg = project photos (from the "Jenny" Google Drive folder)
 - favicon.svg, favicon-32.png, apple-touch-icon.png, icon-512.png = app icons (from ALR logo)
 - contact.html + contact.js = Save Contact page (phone/email options)
 - Jenny-Joven-Beria-Phone.vcf / -Email.vcf / -ALR.vcf = the actual contact downloads
@@ -26,7 +24,10 @@ HOW TO EDIT:
 2. COLORS: open style.css, edit the :root variables (--accent, --bg, --card...)
 3. PHOTO: replace images/my-photo.png (keep same filename)
    BG PHOTO: the blurred backdrop uses images/work-2.jpg (see .bg-fixed in style.css)
-4. WORK PHOTOS: replace images/work-1.jpg, work-2.jpg, work-3.jpg
+4. WORK PHOTOS: replace images/work-1.jpg through work-6.jpg
+   The whole photo is shown (never cropped) - the card height follows each photo.
+   To add a slide: copy an <article class="slide"> block in index.html AND add one
+   matching <button class="work-dot" data-slide="N"> in the carousel-dots row.
 5. SOCIAL LINKS: in index.html, swap Instagram/Facebook/TikTok URLs + handles
 6. SERVICES: in index.html, edit the .service-row blocks
 7. SAVE CONTACT INFO: phone/email appear in 4 places — keep them matching:

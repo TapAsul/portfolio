@@ -16,7 +16,7 @@
 const CONTACT = {
   name: "Jenny Joven Beria",
   organization: "ALR Steel Fabrication and Services OPC",
-  phoneDisplay: "09933234360",
+  phoneDisplay: "0977 116 4273",
   email: "alr_kitssa@yahoo.com"
 };
 
